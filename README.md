@@ -1,6 +1,6 @@
 <h1 align="center" id="title">Proxlog</h1>
 
-<p id="description">Loge exporting script for Proxmox virtual enviroment. Exports log via http</p>
+<p id="description">Log exporting script for Proxmox virtual enviroment. Exports log via http</p>
 
   
   
