@@ -1,0 +1,9 @@
+.env
+
+__pycashe__/
+
+log.txt
+
+app.log
+
+var/
