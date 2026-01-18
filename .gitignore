@@ -8,4 +8,6 @@ app.log
 
 var/
 
-.idea/
+.idea/__pycache__/
+*.pyc
+*.pyo
