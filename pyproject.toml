@@ -6,7 +6,9 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "dotenv>=0.9.9",
+    "fastapi[standard]>=0.128.0",
     "logging>=0.4.9.6",
     "ollama>=0.6.1",
+    "pathlib>=1.0.1",
     "requests>=2.32.5",
 ]
