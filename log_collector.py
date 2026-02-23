@@ -2,7 +2,7 @@
 from pathlib import Path
 from dotenv import load_dotenv
 import os
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from typing import List
 
 #dotenv
