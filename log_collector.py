@@ -39,6 +39,10 @@ async def read_log(log_path: str):
         "content": content[-10000:]
     }
 
+@app.get("/health")
+async def health():
+    return {"status": "proxlog is running"}
+
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host=os.getenv('HOST', '0.0.0.0'), port=int(os.getenv('PORT', 8081)), reload=True)
